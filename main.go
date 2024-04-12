@@ -9,5 +9,5 @@ func main() {
 			"ping": "pong",
 		})
 	})
-	r.Run() // listen and serve on 0.0.0.0:8080
+	r.Run("0.0.0.0:80") // listen and serve on 0.0.0.0:8080
 }
