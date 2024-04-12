@@ -1,4 +1,4 @@
-module lb
+module bilanx
 
 go 1.20
 

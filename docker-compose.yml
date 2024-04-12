@@ -8,7 +8,7 @@ services:
       - 80:80
     restart: always
 
-  server:
-    container_name: server
+  bilanx:
+    container_name: bilanx
     build: .
     restart: always
